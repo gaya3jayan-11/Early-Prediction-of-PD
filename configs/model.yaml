@@ -1,0 +1,30 @@
+random_state: 42
+task: "binary_classification"
+target: "convert_24m"
+
+# Feature groups (we'll auto-discover later, but list critical ones here)
+feature_groups:
+  demographics: [age, sex]
+  plasma: []    # will be filled after schema discovery
+  clinical: []  # optional
+
+# Baselines (we’ll start with LR; add XGB/LGBM later)
+models:
+  logistic_regression:
+    C: 1.0
+    penalty: "l2"
+    solver: "lbfgs"
+    max_iter: 1000
+    class_weight: "balanced"
+
+# Probability calibration
+calibration:
+  method: "isotonic"  # or "platt"
+
+# Cross-validation strategy
+cv:
+  strategy: "group_kfold"
+  n_splits: 5
+  group_column: "subject_id"
+  shuffle: true
+  random_state: 42

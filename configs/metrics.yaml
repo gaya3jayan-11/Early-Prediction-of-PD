@@ -1,0 +1,41 @@
+# Primary reporting metrics
+primary:
+  - auroc
+  - average_precision        # AUPRC
+  - ece                      # Expected Calibration Error
+  - brier
+
+# Threshold-based reporting (evaluate multiple operating points)
+thresholds:
+  selection: youden_j        # fallback to cost_sensitive if provided
+  report_at:
+    - sensitivity: 0.85
+    - specificity: 0.80
+
+# Cross-validation and confidence intervals
+evaluation:
+  cv:
+    strategy: group_kfold    # group by subject_id
+    n_splits: 5
+    shuffle: true
+    random_state: 42
+    group_column: subject_id
+  ci:
+    bootstraps: 1000
+    seed: 42
+
+# Calibration settings
+calibration:
+  method: isotonic           # or 'platt'
+  bins: 10
+
+# Subgroup robustness
+subgroups:
+  - column: sex
+  - column: age_bucket
+
+# Hold-out policy (can be refined later)
+holdout:
+  type: random_group_split
+  proportion: 0.2
+  group_column: subject_id

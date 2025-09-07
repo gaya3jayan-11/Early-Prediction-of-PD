@@ -1,0 +1,26 @@
+# PPMI/AMP-PD data settings (placeholders; we will fill actual filenames at Step 6)
+
+id_column: subject_id           # e.g., PPMI 'PATNO' → we'll map to this
+baseline_visit_flag: baseline   # how we mark baseline rows after derivation
+visit_date_column: visit_date   # normalized name after parsing
+outcome_column: convert_24m     # derived label: conversion within 24 months
+
+window_months: 24
+positive_label: 1
+negative_label: 0
+
+# File stubs (we’ll replace with your real CSV/XLSX names at Step 6)
+files:
+  demographics: "<PUT_FILENAME_HERE>"
+  plasma_biomarkers: "<PUT_FILENAME_HERE>"
+  diagnosis_events: "<PUT_FILENAME_HERE>"
+  visits: "<PUT_FILENAME_HERE>"
+
+# Join keys & expected minimal columns (sanity checks)
+expected_columns:
+  demographics: [PATNO, SEX, BIRTHDT]
+  plasma_biomarkers: [PATNO, SAMPLE_DATE, PLASMA_VAR_1]
+  diagnosis_events: [PATNO, EVENT_DATE, DX_STATUS]
+  visits: [PATNO, VISIT_DATE, VISIT_CODE]
+join_key_raw: PATNO
+join_key_normalized: subject_id
