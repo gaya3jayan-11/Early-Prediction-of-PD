@@ -1,0 +1,17 @@
+﻿# Python / notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Envs & secrets
+.env
+.venv/
+
+# Data & models (keep placeholders only)
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+
+# VS Code
+.vscode/
