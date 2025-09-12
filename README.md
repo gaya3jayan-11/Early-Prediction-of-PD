@@ -6,7 +6,7 @@
 <summary><strong>Windows (PowerShell)</strong></summary>
 
 # 1) Clone
-git clone https://github.com/<you>/pd-risk-prediction.git
+git clone https://github.com/gaya3jayan-11/Early-Prediction-of-PD.git
 cd pd-risk-prediction
 
 # 2) Virtual env + deps
@@ -37,7 +37,7 @@ python scripts\predict.py -i data\processed\final_dataset_enhanced.csv -o repo
 </details> <details> <summary><strong>macOS / Linux (Bash)</strong></summary>
 
 # 1) Clone
-git clone https://github.com/<you>/pd-risk-prediction.git
+git clone https://github.com/gaya3jayan-11/Early-Prediction-of-PD.git
 cd pd-risk-prediction
 
 # 2) Virtual env + deps
