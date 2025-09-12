@@ -1,0 +1,14 @@
+{
+  "n": 1105,
+  "positives": 29,
+  "pos_rate": 0.026244343891402715,
+  "auroc": 0.9808037431098577,
+  "auprc": 0.9275759492899877,
+  "brier": 0.007338570350996104,
+  "ece_10q": 0.0291223990197226,
+  "plots": {
+    "calibration_curve": "plots\\calibration_curve.png"
+  },
+  "subgroups": {},
+  "eval": "oof_5fold_stratified"
+}

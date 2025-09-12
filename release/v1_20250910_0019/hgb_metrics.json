@@ -1,0 +1,23 @@
+{
+  "roc_auc": 1.0,
+  "auprc": 1.0,
+  "brier": 0.005066241434128934,
+  "optimal_threshold_f1": 0.9999927111553432,
+  "f1_at_thr": 0.9999999999995,
+  "precision_at_thr": 1.0,
+  "recall_at_thr": 1.0,
+  "confusion_matrix_at_thr": [
+    [
+      215,
+      0
+    ],
+    [
+      0,
+      6
+    ]
+  ],
+  "n_train": 884,
+  "n_test": 221,
+  "model_path": "C:\\Users\\gayat\\Desktop\\CSE\\Sem7\\6 PP2\\PD_Project\\models\\hgb_weighted.joblib",
+  "preds_path": "C:\\Users\\gayat\\Desktop\\CSE\\Sem7\\6 PP2\\PD_Project\\reports\\hgb_predictions.csv"
+}

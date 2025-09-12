@@ -1,0 +1,82 @@
+{
+  "diagnosis": {
+    "file": "C:\\Users\\gayat\\Desktop\\CSE\\Sem7\\6 PP2\\PD_Project\\data\\raw\\PD_Diagnosis_History_07Sep2025.csv",
+    "columns_considered": [
+      "PDDXDT"
+    ],
+    "summary": [
+      {
+        "column": "PDDXDT",
+        "non_null": 1935,
+        "min": "2000-01-01 00:00:00",
+        "max": "2025-02-01 00:00:00"
+      }
+    ],
+    "recommended_date_col": "PDDXDT"
+  },
+  "instruments": [
+    {
+      "file": "C:\\Users\\gayat\\Desktop\\CSE\\Sem7\\6 PP2\\PD_Project\\data\\raw\\Montreal_Cognitive_Assessment__MoCA__07Sep2025.csv",
+      "event_candidates_present": [
+        "EVENT_ID"
+      ],
+      "exam_candidates_present": [
+        "INFODT",
+        "MCADATE",
+        "LAST_UPDATE"
+      ],
+      "recommended_event_col": "EVENT_ID",
+      "recommended_exam_date_col": "INFODT",
+      "baseline_rows_found": 2271
+    },
+    {
+      "file": "C:\\Users\\gayat\\Desktop\\CSE\\Sem7\\6 PP2\\PD_Project\\data\\raw\\MDS_UPDRS_Part_II__Patient_Questionnaire_07Sep2025.csv",
+      "event_candidates_present": [
+        "EVENT_ID"
+      ],
+      "exam_candidates_present": [
+        "INFODT",
+        "LAST_UPDATE"
+      ],
+      "recommended_event_col": "EVENT_ID",
+      "recommended_exam_date_col": "INFODT",
+      "baseline_rows_found": 4318
+    },
+    {
+      "file": "C:\\Users\\gayat\\Desktop\\CSE\\Sem7\\6 PP2\\PD_Project\\data\\raw\\MDS-UPDRS_Part_I_Patient_Questionnaire_07Sep2025.csv",
+      "event_candidates_present": [
+        "EVENT_ID"
+      ],
+      "exam_candidates_present": [
+        "INFODT",
+        "LAST_UPDATE"
+      ],
+      "recommended_event_col": "EVENT_ID",
+      "recommended_exam_date_col": "INFODT",
+      "baseline_rows_found": 4318
+    },
+    {
+      "file": "C:\\Users\\gayat\\Desktop\\CSE\\Sem7\\6 PP2\\PD_Project\\data\\raw\\MDS-UPDRS_Part_I_Non-Motor_Aspects__Online__07Sep2025.csv",
+      "event_candidates_present": [
+        "EVENT_ID"
+      ],
+      "exam_candidates_present": [],
+      "recommended_event_col": "EVENT_ID",
+      "recommended_exam_date_col": null,
+      "baseline_rows_found": 0
+    },
+    {
+      "file": "C:\\Users\\gayat\\Desktop\\CSE\\Sem7\\6 PP2\\PD_Project\\data\\raw\\MDS-UPDRS_Part_IV__Motor_Complications_07Sep2025.csv",
+      "event_candidates_present": [
+        "EVENT_ID"
+      ],
+      "exam_candidates_present": [
+        "INFODT",
+        "LAST_UPDATE"
+      ],
+      "recommended_event_col": "EVENT_ID",
+      "recommended_exam_date_col": "INFODT",
+      "baseline_rows_found": 295
+    }
+  ]
+}

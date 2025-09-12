@@ -1,0 +1,2305 @@
+{
+  "raw_dir": "C:\\Users\\gayat\\Desktop\\CSE\\Sem7\\6 PP2\\PD_Project\\data\\raw",
+  "tables": [
+    {
+      "table": "demographics",
+      "base_group": "demographics",
+      "file": "Demographics_07Sep2025.csv",
+      "exists": true,
+      "basic": {
+        "name": "demographics",
+        "shape": [
+          7450,
+          29
+        ],
+        "columns": [
+          "REC_ID",
+          "PATNO",
+          "EVENT_ID",
+          "PAG_NAME",
+          "INFODT",
+          "AFICBERB",
+          "ASHKJEW",
+          "BASQUE",
+          "BIRTHDT",
+          "SEX",
+          "CHLDBEAR",
+          "HOWLIVE",
+          "GAYLES",
+          "HETERO",
+          "BISEXUAL",
+          "PANSEXUAL",
+          "ASEXUAL",
+          "OTHSEXUALITY",
+          "HANDED",
+          "HISPLAT",
+          "RAASIAN",
+          "RABLACK",
+          "RAHAWOPI",
+          "RAINDALS",
+          "RANOS",
+          "RAWHITE",
+          "RAUNKNOWN",
+          "ORIG_ENTRY",
+          "LAST_UPDATE"
+        ],
+        "null_counts": {
+          "REC_ID": 0,
+          "PATNO": 0,
+          "EVENT_ID": 0,
+          "PAG_NAME": 0,
+          "INFODT": 1,
+          "AFICBERB": 900,
+          "ASHKJEW": 899,
+          "BASQUE": 899,
+          "BIRTHDT": 8,
+          "SEX": 2,
+          "CHLDBEAR": 3874,
+          "HOWLIVE": 3111,
+          "GAYLES": 2963,
+          "HETERO": 2963,
+          "BISEXUAL": 2963,
+          "PANSEXUAL": 2963,
+          "ASEXUAL": 2963,
+          "OTHSEXUALITY": 2963,
+          "HANDED": 133,
+          "HISPLAT": 42,
+          "RAASIAN": 4,
+          "RABLACK": 4,
+          "RAHAWOPI": 4,
+          "RAINDALS": 4,
+          "RANOS": 4,
+          "RAWHITE": 4,
+          "RAUNKNOWN": 0,
+          "ORIG_ENTRY": 0,
+          "LAST_UPDATE": 0
+        },
+        "dtypes": {
+          "REC_ID": "object",
+          "PATNO": "int64",
+          "EVENT_ID": "object",
+          "PAG_NAME": "object",
+          "INFODT": "object",
+          "AFICBERB": "float64",
+          "ASHKJEW": "float64",
+          "BASQUE": "float64",
+          "BIRTHDT": "object",
+          "SEX": "float64",
+          "CHLDBEAR": "float64",
+          "HOWLIVE": "float64",
+          "GAYLES": "float64",
+          "HETERO": "float64",
+          "BISEXUAL": "float64",
+          "PANSEXUAL": "float64",
+          "ASEXUAL": "float64",
+          "OTHSEXUALITY": "float64",
+          "HANDED": "float64",
+          "HISPLAT": "float64",
+          "RAASIAN": "float64",
+          "RABLACK": "float64",
+          "RAHAWOPI": "float64",
+          "RAINDALS": "float64",
+          "RANOS": "float64",
+          "RAWHITE": "float64",
+          "RAUNKNOWN": "int64",
+          "ORIG_ENTRY": "object",
+          "LAST_UPDATE": "object"
+        },
+        "head_preview": {
+          "REC_ID": [
+            "IA86904",
+            "IA86905",
+            "IA86906"
+          ],
+          "PATNO": [
+            3000,
+            3001,
+            3002
+          ],
+          "EVENT_ID": [
+            "TRANS",
+            "TRANS",
+            "TRANS"
+          ],
+          "PAG_NAME": [
+            "SCREEN",
+            "SCREEN",
+            "SCREEN"
+          ],
+          "INFODT": [
+            "01/2011",
+            "02/2011",
+            "03/2011"
+          ],
+          "AFICBERB": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ASHKJEW": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "BASQUE": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "BIRTHDT": [
+            "12/1941",
+            "01/1946",
+            "08/1943"
+          ],
+          "SEX": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "CHLDBEAR": [
+            0.0,
+            NaN,
+            0.0
+          ],
+          "HOWLIVE": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "GAYLES": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "HETERO": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "BISEXUAL": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "PANSEXUAL": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "ASEXUAL": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "OTHSEXUALITY": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "HANDED": [
+            1.0,
+            2.0,
+            1.0
+          ],
+          "HISPLAT": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "RAASIAN": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "RABLACK": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "RAHAWOPI": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "RAINDALS": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "RANOS": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "RAWHITE": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "RAUNKNOWN": [
+            0,
+            0,
+            0
+          ],
+          "ORIG_ENTRY": [
+            "01/2011",
+            "02/2011",
+            "03/2011"
+          ],
+          "LAST_UPDATE": [
+            "2022-11-07 00:00:00.0",
+            "2022-11-07 00:00:00.0",
+            "2022-11-07 00:00:00.0"
+          ]
+        }
+      },
+      "required_present": [
+        "PATNO",
+        "SEX",
+        "BIRTHDT"
+      ],
+      "required_missing": [],
+      "id_check": {
+        "exists": true,
+        "unique": true,
+        "dupe_count": 0
+      }
+    },
+    {
+      "table": "diagnosis_events",
+      "base_group": "diagnosis_events",
+      "file": "PD_Diagnosis_History_07Sep2025.csv",
+      "exists": true,
+      "basic": {
+        "name": "diagnosis_events",
+        "shape": [
+          1939,
+          15
+        ],
+        "columns": [
+          "REC_ID",
+          "PATNO",
+          "EVENT_ID",
+          "PAG_NAME",
+          "INFODT",
+          "SXDT",
+          "PDDXDT",
+          "DXTREMOR",
+          "DXRIGID",
+          "DXBRADY",
+          "DXPOSINS",
+          "DXOTHSX",
+          "DOMSIDE",
+          "ORIG_ENTRY",
+          "LAST_UPDATE"
+        ],
+        "null_counts": {
+          "REC_ID": 0,
+          "PATNO": 0,
+          "EVENT_ID": 0,
+          "PAG_NAME": 0,
+          "INFODT": 0,
+          "SXDT": 22,
+          "PDDXDT": 4,
+          "DXTREMOR": 1,
+          "DXRIGID": 1,
+          "DXBRADY": 1,
+          "DXPOSINS": 2,
+          "DXOTHSX": 2,
+          "DOMSIDE": 1,
+          "ORIG_ENTRY": 0,
+          "LAST_UPDATE": 0
+        },
+        "dtypes": {
+          "REC_ID": "object",
+          "PATNO": "int64",
+          "EVENT_ID": "object",
+          "PAG_NAME": "object",
+          "INFODT": "object",
+          "SXDT": "object",
+          "PDDXDT": "object",
+          "DXTREMOR": "float64",
+          "DXRIGID": "float64",
+          "DXBRADY": "float64",
+          "DXPOSINS": "float64",
+          "DXOTHSX": "float64",
+          "DOMSIDE": "float64",
+          "ORIG_ENTRY": "object",
+          "LAST_UPDATE": "object"
+        },
+        "head_preview": {
+          "REC_ID": [
+            "274786201",
+            "278719301",
+            "281142401"
+          ],
+          "PATNO": [
+            3001,
+            3002,
+            3003
+          ],
+          "EVENT_ID": [
+            "SC",
+            "SC",
+            "SC"
+          ],
+          "PAG_NAME": [
+            "PDFEAT",
+            "PDFEAT",
+            "PDFEAT"
+          ],
+          "INFODT": [
+            "02/2011",
+            "03/2011",
+            "03/2011"
+          ],
+          "SXDT": [
+            "08/2009",
+            "02/2009",
+            "05/2006"
+          ],
+          "PDDXDT": [
+            "04/2010",
+            "02/2010",
+            "03/2009"
+          ],
+          "DXTREMOR": [
+            1.0,
+            1.0,
+            0.0
+          ],
+          "DXRIGID": [
+            1.0,
+            0.0,
+            1.0
+          ],
+          "DXBRADY": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "DXPOSINS": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "DXOTHSX": [
+            0.0,
+            1.0,
+            1.0
+          ],
+          "DOMSIDE": [
+            2.0,
+            1.0,
+            2.0
+          ],
+          "ORIG_ENTRY": [
+            "02/2011",
+            "03/2011",
+            "03/2011"
+          ],
+          "LAST_UPDATE": [
+            "2020-06-25 16:04:32.0",
+            "2020-04-01 17:33:44.0",
+            "2020-06-25 16:06:25.0"
+          ]
+        }
+      },
+      "required_present": [
+        "PATNO"
+      ],
+      "required_missing": [],
+      "id_check": {
+        "exists": true,
+        "unique": true,
+        "dupe_count": 0
+      }
+    },
+    {
+      "table": "plasma_biomarkers[0]",
+      "base_group": "plasma_biomarkers",
+      "file": "Current_Biospecimen_Analysis_Results_06Sep2025.csv",
+      "exists": true,
+      "basic": {
+        "name": "plasma_biomarkers[0]",
+        "shape": [
+          10000,
+          13
+        ],
+        "columns": [
+          "PATNO",
+          "SEX",
+          "COHORT",
+          "CLINICAL_EVENT",
+          "TYPE",
+          "TESTNAME",
+          "TESTVALUE",
+          "UNITS",
+          "RUNDATE",
+          "PROJECTID",
+          "PI_NAME",
+          "PI_INSTITUTION",
+          "update_stamp"
+        ],
+        "null_counts": {
+          "PATNO": 0,
+          "SEX": 0,
+          "COHORT": 0,
+          "CLINICAL_EVENT": 0,
+          "TYPE": 0,
+          "TESTNAME": 0,
+          "TESTVALUE": 1,
+          "UNITS": 2884,
+          "RUNDATE": 0,
+          "PROJECTID": 0,
+          "PI_NAME": 0,
+          "PI_INSTITUTION": 0,
+          "update_stamp": 0
+        },
+        "dtypes": {
+          "PATNO": "int64",
+          "SEX": "object",
+          "COHORT": "object",
+          "CLINICAL_EVENT": "object",
+          "TYPE": "object",
+          "TESTNAME": "object",
+          "TESTVALUE": "object",
+          "UNITS": "object",
+          "RUNDATE": "object",
+          "PROJECTID": "int64",
+          "PI_NAME": "object",
+          "PI_INSTITUTION": "object",
+          "update_stamp": "object"
+        },
+        "head_preview": {
+          "PATNO": [
+            3000,
+            3001,
+            3002
+          ],
+          "SEX": [
+            "Female",
+            "Male",
+            "Female"
+          ],
+          "COHORT": [
+            "Control",
+            "PD",
+            "PD"
+          ],
+          "CLINICAL_EVENT": [
+            "SC",
+            "SC",
+            "SC"
+          ],
+          "TYPE": [
+            "DNA",
+            "DNA",
+            "DNA"
+          ],
+          "TESTNAME": [
+            "ApoE Genotype",
+            "ApoE Genotype",
+            "ApoE Genotype"
+          ],
+          "TESTVALUE": [
+            "e3/e3",
+            "e3/e3",
+            "e3/e3"
+          ],
+          "UNITS": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "RUNDATE": [
+            "2012-09-27",
+            "2012-09-27",
+            "2012-09-27"
+          ],
+          "PROJECTID": [
+            104,
+            104,
+            104
+          ],
+          "PI_NAME": [
+            "Andrew Singleton",
+            "Andrew Singleton",
+            "Andrew Singleton"
+          ],
+          "PI_INSTITUTION": [
+            "National Institutes of Aging",
+            "National Institutes of Aging",
+            "National Institutes of Aging"
+          ],
+          "update_stamp": [
+            "2014-11-03 11:58:57.0",
+            "2014-11-03 11:58:57.0",
+            "2014-11-03 11:58:57.0"
+          ]
+        }
+      },
+      "required_present": [
+        "PATNO"
+      ],
+      "required_missing": [],
+      "id_check": {
+        "exists": true,
+        "unique": false,
+        "dupe_count": 9284
+      }
+    },
+    {
+      "table": "plasma_biomarkers[1]",
+      "base_group": "plasma_biomarkers",
+      "file": "SAA_Biospecimen_Analysis_Results_06Sep2025.csv",
+      "exists": true,
+      "basic": {
+        "name": "plasma_biomarkers[1]",
+        "shape": [
+          2167,
+          48
+        ],
+        "columns": [
+          "PATNO",
+          "SEX",
+          "COHORT",
+          "CLINICAL_EVENT",
+          "TYPE",
+          "SAAMethod",
+          "SAA_Status",
+          "SAA_Type",
+          "Fmax_24h_Rep1",
+          "Fmax_24h_Rep2",
+          "Fmax_24h_Rep3",
+          "TTT_24h_Rep1",
+          "TTT_24h_Rep2",
+          "TTT_24h_Rep3",
+          "AUC_24h_Rep1",
+          "AUC_24h_Rep2",
+          "AUC_24h_Rep3",
+          "TSmax_24h_Rep1",
+          "TSmax_24h_Rep2",
+          "TSmax_24h_Rep3",
+          "SLOPEMax_24h_Rep1",
+          "SLOPEMax_24h_Rep2",
+          "SLOPEMax_24h_Rep3",
+          "Fmax_150h_Rep1",
+          "Fmax_150h_Rep2",
+          "Fmax_150h_Rep3",
+          "TTT_150h_Rep1",
+          "TTT_150h_Rep2",
+          "TTT_150h_Rep3",
+          "AUC_150h_Rep1",
+          "AUC_150h_Rep2",
+          "AUC_150h_Rep3",
+          "T50_150h_Rep1",
+          "T50_150h_Rep2",
+          "T50_150h_Rep3",
+          "SLOPE_150h_Rep1",
+          "SLOPE_150h_Rep2",
+          "SLOPE_150h_Rep3",
+          "InstrumentRep1",
+          "InstrumentRep2",
+          "InstrumentRep3",
+          "SampleVolRep1",
+          "SampleVolRep2",
+          "SampleVolRep3",
+          "RUNDATE",
+          "PROJECTID",
+          "PI_NAME",
+          "PI_INSTITUTION"
+        ],
+        "null_counts": {
+          "PATNO": 0,
+          "SEX": 0,
+          "COHORT": 0,
+          "CLINICAL_EVENT": 0,
+          "TYPE": 0,
+          "SAAMethod": 0,
+          "SAA_Status": 0,
+          "SAA_Type": 899,
+          "Fmax_24h_Rep1": 655,
+          "Fmax_24h_Rep2": 654,
+          "Fmax_24h_Rep3": 654,
+          "TTT_24h_Rep1": 874,
+          "TTT_24h_Rep2": 900,
+          "TTT_24h_Rep3": 895,
+          "AUC_24h_Rep1": 655,
+          "AUC_24h_Rep2": 654,
+          "AUC_24h_Rep3": 654,
+          "TSmax_24h_Rep1": 655,
+          "TSmax_24h_Rep2": 654,
+          "TSmax_24h_Rep3": 654,
+          "SLOPEMax_24h_Rep1": 655,
+          "SLOPEMax_24h_Rep2": 654,
+          "SLOPEMax_24h_Rep3": 654,
+          "Fmax_150h_Rep1": 1513,
+          "Fmax_150h_Rep2": 1513,
+          "Fmax_150h_Rep3": 1513,
+          "TTT_150h_Rep1": 1636,
+          "TTT_150h_Rep2": 1629,
+          "TTT_150h_Rep3": 1621,
+          "AUC_150h_Rep1": 1636,
+          "AUC_150h_Rep2": 1629,
+          "AUC_150h_Rep3": 1621,
+          "T50_150h_Rep1": 1639,
+          "T50_150h_Rep2": 1629,
+          "T50_150h_Rep3": 1622,
+          "SLOPE_150h_Rep1": 1636,
+          "SLOPE_150h_Rep2": 1629,
+          "SLOPE_150h_Rep3": 1621,
+          "InstrumentRep1": 0,
+          "InstrumentRep2": 0,
+          "InstrumentRep3": 0,
+          "SampleVolRep1": 2159,
+          "SampleVolRep2": 2166,
+          "SampleVolRep3": 2049,
+          "RUNDATE": 0,
+          "PROJECTID": 0,
+          "PI_NAME": 0,
+          "PI_INSTITUTION": 0
+        },
+        "dtypes": {
+          "PATNO": "int64",
+          "SEX": "object",
+          "COHORT": "object",
+          "CLINICAL_EVENT": "object",
+          "TYPE": "object",
+          "SAAMethod": "object",
+          "SAA_Status": "object",
+          "SAA_Type": "object",
+          "Fmax_24h_Rep1": "float64",
+          "Fmax_24h_Rep2": "float64",
+          "Fmax_24h_Rep3": "float64",
+          "TTT_24h_Rep1": "float64",
+          "TTT_24h_Rep2": "float64",
+          "TTT_24h_Rep3": "float64",
+          "AUC_24h_Rep1": "float64",
+          "AUC_24h_Rep2": "float64",
+          "AUC_24h_Rep3": "float64",
+          "TSmax_24h_Rep1": "float64",
+          "TSmax_24h_Rep2": "float64",
+          "TSmax_24h_Rep3": "float64",
+          "SLOPEMax_24h_Rep1": "float64",
+          "SLOPEMax_24h_Rep2": "float64",
+          "SLOPEMax_24h_Rep3": "float64",
+          "Fmax_150h_Rep1": "float64",
+          "Fmax_150h_Rep2": "float64",
+          "Fmax_150h_Rep3": "float64",
+          "TTT_150h_Rep1": "float64",
+          "TTT_150h_Rep2": "float64",
+          "TTT_150h_Rep3": "float64",
+          "AUC_150h_Rep1": "float64",
+          "AUC_150h_Rep2": "float64",
+          "AUC_150h_Rep3": "float64",
+          "T50_150h_Rep1": "float64",
+          "T50_150h_Rep2": "float64",
+          "T50_150h_Rep3": "float64",
+          "SLOPE_150h_Rep1": "float64",
+          "SLOPE_150h_Rep2": "float64",
+          "SLOPE_150h_Rep3": "float64",
+          "InstrumentRep1": "int64",
+          "InstrumentRep2": "int64",
+          "InstrumentRep3": "int64",
+          "SampleVolRep1": "object",
+          "SampleVolRep2": "object",
+          "SampleVolRep3": "object",
+          "RUNDATE": "object",
+          "PROJECTID": "int64",
+          "PI_NAME": "object",
+          "PI_INSTITUTION": "object"
+        },
+        "head_preview": {
+          "PATNO": [
+            245573,
+            241189,
+            163324
+          ],
+          "SEX": [
+            "Male",
+            "Female",
+            "Male"
+          ],
+          "COHORT": [
+            "PD",
+            "PD",
+            "PD"
+          ],
+          "CLINICAL_EVENT": [
+            "BL",
+            "BL",
+            "BL"
+          ],
+          "TYPE": [
+            "Cerebrospinal Fluid",
+            "Cerebrospinal Fluid",
+            "Cerebrospinal Fluid"
+          ],
+          "SAAMethod": [
+            "Amprion-24h alpha-synuclein-SAA",
+            "Amprion-24h alpha-synuclein-SAA",
+            "Amprion-24h alpha-synuclein-SAA"
+          ],
+          "SAA_Status": [
+            "Positive",
+            "Negative",
+            "Positive"
+          ],
+          "SAA_Type": [
+            "Type1",
+            NaN,
+            "Type1"
+          ],
+          "Fmax_24h_Rep1": [
+            153626.0,
+            600.0,
+            75742.0
+          ],
+          "Fmax_24h_Rep2": [
+            146136.0,
+            596.0,
+            71408.0
+          ],
+          "Fmax_24h_Rep3": [
+            149849.0,
+            586.0,
+            82421.0
+          ],
+          "TTT_24h_Rep1": [
+            10.7,
+            NaN,
+            18.07
+          ],
+          "TTT_24h_Rep2": [
+            12.55,
+            NaN,
+            18.5
+          ],
+          "TTT_24h_Rep3": [
+            9.97,
+            NaN,
+            19.11
+          ],
+          "AUC_24h_Rep1": [
+            5561000000.0,
+            4068570.0,
+            1182000000.0
+          ],
+          "AUC_24h_Rep2": [
+            4647000000.0,
+            4588210.0,
+            976639000.0
+          ],
+          "AUC_24h_Rep3": [
+            5618000000.0,
+            3094490.0,
+            898499000.0
+          ],
+          "TSmax_24h_Rep1": [
+            11.26,
+            5.5,
+            18.77
+          ],
+          "TSmax_24h_Rep2": [
+            13.01,
+            23.27,
+            19.27
+          ],
+          "TSmax_24h_Rep3": [
+            10.51,
+            5.5,
+            20.02
+          ],
+          "SLOPEMax_24h_Rep1": [
+            45.59,
+            0.02,
+            14.9
+          ],
+          "SLOPEMax_24h_Rep2": [
+            40.6,
+            0.03,
+            12.3
+          ],
+          "SLOPEMax_24h_Rep3": [
+            44.31,
+            0.03,
+            13.1
+          ],
+          "Fmax_150h_Rep1": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "Fmax_150h_Rep2": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "Fmax_150h_Rep3": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "TTT_150h_Rep1": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "TTT_150h_Rep2": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "TTT_150h_Rep3": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "AUC_150h_Rep1": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "AUC_150h_Rep2": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "AUC_150h_Rep3": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "T50_150h_Rep1": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "T50_150h_Rep2": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "T50_150h_Rep3": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "SLOPE_150h_Rep1": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "SLOPE_150h_Rep2": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "SLOPE_150h_Rep3": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "InstrumentRep1": [
+            2,
+            2,
+            2
+          ],
+          "InstrumentRep2": [
+            2,
+            2,
+            2
+          ],
+          "InstrumentRep3": [
+            2,
+            2,
+            2
+          ],
+          "SampleVolRep1": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "SampleVolRep2": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "SampleVolRep3": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "RUNDATE": [
+            "2023-12-18",
+            "2023-12-18",
+            "2023-12-18"
+          ],
+          "PROJECTID": [
+            237,
+            237,
+            237
+          ],
+          "PI_NAME": [
+            "Luis Concha",
+            "Luis Concha",
+            "Luis Concha"
+          ],
+          "PI_INSTITUTION": [
+            "Amprion",
+            "Amprion",
+            "Amprion"
+          ]
+        }
+      },
+      "required_present": [
+        "PATNO"
+      ],
+      "required_missing": [],
+      "id_check": {
+        "exists": true,
+        "unique": false,
+        "dupe_count": 806
+      }
+    },
+    {
+      "table": "instruments_optional[0]",
+      "base_group": "instruments_optional",
+      "file": "Montreal_Cognitive_Assessment__MoCA__07Sep2025.csv",
+      "exists": true,
+      "basic": {
+        "name": "instruments_optional[0]",
+        "shape": [
+          10000,
+          35
+        ],
+        "columns": [
+          "REC_ID",
+          "PATNO",
+          "EVENT_ID",
+          "PAG_NAME",
+          "INFODT",
+          "MCAALTTM",
+          "MCACUBE",
+          "MCACLCKC",
+          "MCACLCKN",
+          "MCACLCKH",
+          "MCALION",
+          "MCARHINO",
+          "MCACAMEL",
+          "MCAFDS",
+          "MCABDS",
+          "MCAVIGIL",
+          "MCASER7",
+          "MCASNTNC",
+          "MCAVFNUM",
+          "MCAVF",
+          "MCAABSTR",
+          "MCAREC1",
+          "MCAREC2",
+          "MCAREC3",
+          "MCAREC4",
+          "MCAREC5",
+          "MCADATE",
+          "MCAMONTH",
+          "MCAYR",
+          "MCADAY",
+          "MCAPLACE",
+          "MCACITY",
+          "MCATOT",
+          "ORIG_ENTRY",
+          "LAST_UPDATE"
+        ],
+        "null_counts": {
+          "REC_ID": 0,
+          "PATNO": 0,
+          "EVENT_ID": 0,
+          "PAG_NAME": 0,
+          "INFODT": 0,
+          "MCAALTTM": 2,
+          "MCACUBE": 2,
+          "MCACLCKC": 2,
+          "MCACLCKN": 2,
+          "MCACLCKH": 2,
+          "MCALION": 1,
+          "MCARHINO": 1,
+          "MCACAMEL": 1,
+          "MCAFDS": 1,
+          "MCABDS": 1,
+          "MCAVIGIL": 2,
+          "MCASER7": 3,
+          "MCASNTNC": 3,
+          "MCAVFNUM": 4,
+          "MCAVF": 4,
+          "MCAABSTR": 5,
+          "MCAREC1": 6,
+          "MCAREC2": 6,
+          "MCAREC3": 7,
+          "MCAREC4": 7,
+          "MCAREC5": 6,
+          "MCADATE": 5,
+          "MCAMONTH": 5,
+          "MCAYR": 5,
+          "MCADAY": 5,
+          "MCAPLACE": 5,
+          "MCACITY": 5,
+          "MCATOT": 27,
+          "ORIG_ENTRY": 0,
+          "LAST_UPDATE": 0
+        },
+        "dtypes": {
+          "REC_ID": "object",
+          "PATNO": "int64",
+          "EVENT_ID": "object",
+          "PAG_NAME": "object",
+          "INFODT": "object",
+          "MCAALTTM": "float64",
+          "MCACUBE": "float64",
+          "MCACLCKC": "float64",
+          "MCACLCKN": "float64",
+          "MCACLCKH": "float64",
+          "MCALION": "float64",
+          "MCARHINO": "float64",
+          "MCACAMEL": "float64",
+          "MCAFDS": "float64",
+          "MCABDS": "float64",
+          "MCAVIGIL": "float64",
+          "MCASER7": "float64",
+          "MCASNTNC": "float64",
+          "MCAVFNUM": "float64",
+          "MCAVF": "float64",
+          "MCAABSTR": "float64",
+          "MCAREC1": "float64",
+          "MCAREC2": "float64",
+          "MCAREC3": "float64",
+          "MCAREC4": "float64",
+          "MCAREC5": "float64",
+          "MCADATE": "float64",
+          "MCAMONTH": "float64",
+          "MCAYR": "float64",
+          "MCADAY": "float64",
+          "MCAPLACE": "float64",
+          "MCACITY": "float64",
+          "MCATOT": "float64",
+          "ORIG_ENTRY": "object",
+          "LAST_UPDATE": "object"
+        },
+        "head_preview": {
+          "REC_ID": [
+            "269556101",
+            "338704501",
+            "385012501"
+          ],
+          "PATNO": [
+            3000,
+            3000,
+            3000
+          ],
+          "EVENT_ID": [
+            "SC",
+            "V04",
+            "V06"
+          ],
+          "PAG_NAME": [
+            "MOCA",
+            "MOCA",
+            "MOCA"
+          ],
+          "INFODT": [
+            "01/2011",
+            "03/2012",
+            "02/2013"
+          ],
+          "MCAALTTM": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "MCACUBE": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "MCACLCKC": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "MCACLCKN": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "MCACLCKH": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "MCALION": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "MCARHINO": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "MCACAMEL": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "MCAFDS": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "MCABDS": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "MCAVIGIL": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "MCASER7": [
+            3.0,
+            3.0,
+            3.0
+          ],
+          "MCASNTNC": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "MCAVFNUM": [
+            14.0,
+            22.0,
+            16.0
+          ],
+          "MCAVF": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "MCAABSTR": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "MCAREC1": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "MCAREC2": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "MCAREC3": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "MCAREC4": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "MCAREC5": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "MCADATE": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "MCAMONTH": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "MCAYR": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "MCADAY": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "MCAPLACE": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "MCACITY": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "MCATOT": [
+            27.0,
+            29.0,
+            28.0
+          ],
+          "ORIG_ENTRY": [
+            "01/2011",
+            "03/2012",
+            "02/2013"
+          ],
+          "LAST_UPDATE": [
+            "2020-06-25 16:02:21.0",
+            "2020-06-25 16:02:21.0",
+            "2020-06-25 16:02:22.0"
+          ]
+        }
+      },
+      "required_present": [
+        "PATNO"
+      ],
+      "required_missing": [],
+      "id_check": {
+        "exists": true,
+        "unique": false,
+        "dupe_count": 8375
+      }
+    },
+    {
+      "table": "instruments_optional[1]",
+      "base_group": "instruments_optional",
+      "file": "MDS_UPDRS_Part_II__Patient_Questionnaire_07Sep2025.csv",
+      "exists": true,
+      "basic": {
+        "name": "instruments_optional[1]",
+        "shape": [
+          10000,
+          22
+        ],
+        "columns": [
+          "REC_ID",
+          "PATNO",
+          "EVENT_ID",
+          "PAG_NAME",
+          "INFODT",
+          "NUPSOURC",
+          "NP2SPCH",
+          "NP2SALV",
+          "NP2SWAL",
+          "NP2EAT",
+          "NP2DRES",
+          "NP2HYGN",
+          "NP2HWRT",
+          "NP2HOBB",
+          "NP2TURN",
+          "NP2TRMR",
+          "NP2RISE",
+          "NP2WALK",
+          "NP2FREZ",
+          "NP2PTOT",
+          "ORIG_ENTRY",
+          "LAST_UPDATE"
+        ],
+        "null_counts": {
+          "REC_ID": 0,
+          "PATNO": 0,
+          "EVENT_ID": 0,
+          "PAG_NAME": 0,
+          "INFODT": 0,
+          "NUPSOURC": 0,
+          "NP2SPCH": 1,
+          "NP2SALV": 1,
+          "NP2SWAL": 3,
+          "NP2EAT": 4,
+          "NP2DRES": 3,
+          "NP2HYGN": 4,
+          "NP2HWRT": 5,
+          "NP2HOBB": 7,
+          "NP2TURN": 2,
+          "NP2TRMR": 2,
+          "NP2RISE": 2,
+          "NP2WALK": 2,
+          "NP2FREZ": 2,
+          "NP2PTOT": 13,
+          "ORIG_ENTRY": 0,
+          "LAST_UPDATE": 0
+        },
+        "dtypes": {
+          "REC_ID": "object",
+          "PATNO": "int64",
+          "EVENT_ID": "object",
+          "PAG_NAME": "object",
+          "INFODT": "object",
+          "NUPSOURC": "int64",
+          "NP2SPCH": "float64",
+          "NP2SALV": "float64",
+          "NP2SWAL": "float64",
+          "NP2EAT": "float64",
+          "NP2DRES": "float64",
+          "NP2HYGN": "float64",
+          "NP2HWRT": "float64",
+          "NP2HOBB": "float64",
+          "NP2TURN": "float64",
+          "NP2TRMR": "float64",
+          "NP2RISE": "float64",
+          "NP2WALK": "float64",
+          "NP2FREZ": "float64",
+          "NP2PTOT": "float64",
+          "ORIG_ENTRY": "object",
+          "LAST_UPDATE": "object"
+        },
+        "head_preview": {
+          "REC_ID": [
+            "272451701",
+            "338702901",
+            "385009601"
+          ],
+          "PATNO": [
+            3000,
+            3000,
+            3000
+          ],
+          "EVENT_ID": [
+            "BL",
+            "V04",
+            "V06"
+          ],
+          "PAG_NAME": [
+            "NUPDRS2P",
+            "NUPDRS2P",
+            "NUPDRS2P"
+          ],
+          "INFODT": [
+            "02/2011",
+            "03/2012",
+            "02/2013"
+          ],
+          "NUPSOURC": [
+            1,
+            1,
+            1
+          ],
+          "NP2SPCH": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NP2SALV": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NP2SWAL": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NP2EAT": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NP2DRES": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NP2HYGN": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NP2HWRT": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NP2HOBB": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NP2TURN": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NP2TRMR": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NP2RISE": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NP2WALK": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NP2FREZ": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NP2PTOT": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ORIG_ENTRY": [
+            "02/2011",
+            "03/2012",
+            "02/2013"
+          ],
+          "LAST_UPDATE": [
+            "2020-06-25 16:02:19.0",
+            "2020-06-25 16:02:22.0",
+            "2020-06-25 16:02:22.0"
+          ]
+        }
+      },
+      "required_present": [
+        "PATNO"
+      ],
+      "required_missing": [],
+      "id_check": {
+        "exists": true,
+        "unique": false,
+        "dupe_count": 9255
+      }
+    },
+    {
+      "table": "instruments_optional[2]",
+      "base_group": "instruments_optional",
+      "file": "MDS-UPDRS_Part_I_Patient_Questionnaire_07Sep2025.csv",
+      "exists": true,
+      "basic": {
+        "name": "instruments_optional[2]",
+        "shape": [
+          10000,
+          16
+        ],
+        "columns": [
+          "REC_ID",
+          "PATNO",
+          "EVENT_ID",
+          "PAG_NAME",
+          "INFODT",
+          "NUPSOURC",
+          "NP1SLPN",
+          "NP1SLPD",
+          "NP1PAIN",
+          "NP1URIN",
+          "NP1CNST",
+          "NP1LTHD",
+          "NP1FATG",
+          "NP1PTOT",
+          "ORIG_ENTRY",
+          "LAST_UPDATE"
+        ],
+        "null_counts": {
+          "REC_ID": 0,
+          "PATNO": 0,
+          "EVENT_ID": 0,
+          "PAG_NAME": 0,
+          "INFODT": 0,
+          "NUPSOURC": 0,
+          "NP1SLPN": 2,
+          "NP1SLPD": 2,
+          "NP1PAIN": 2,
+          "NP1URIN": 2,
+          "NP1CNST": 2,
+          "NP1LTHD": 2,
+          "NP1FATG": 1,
+          "NP1PTOT": 4,
+          "ORIG_ENTRY": 0,
+          "LAST_UPDATE": 0
+        },
+        "dtypes": {
+          "REC_ID": "object",
+          "PATNO": "int64",
+          "EVENT_ID": "object",
+          "PAG_NAME": "object",
+          "INFODT": "object",
+          "NUPSOURC": "int64",
+          "NP1SLPN": "float64",
+          "NP1SLPD": "float64",
+          "NP1PAIN": "float64",
+          "NP1URIN": "float64",
+          "NP1CNST": "float64",
+          "NP1LTHD": "float64",
+          "NP1FATG": "float64",
+          "NP1PTOT": "float64",
+          "ORIG_ENTRY": "object",
+          "LAST_UPDATE": "object"
+        },
+        "head_preview": {
+          "REC_ID": [
+            "272451501",
+            "338702301",
+            "385009201"
+          ],
+          "PATNO": [
+            3000,
+            3000,
+            3000
+          ],
+          "EVENT_ID": [
+            "BL",
+            "V04",
+            "V06"
+          ],
+          "PAG_NAME": [
+            "NUPDRS1P",
+            "NUPDRS1P",
+            "NUPDRS1P"
+          ],
+          "INFODT": [
+            "02/2011",
+            "03/2012",
+            "02/2013"
+          ],
+          "NUPSOURC": [
+            1,
+            1,
+            1
+          ],
+          "NP1SLPN": [
+            1.0,
+            0.0,
+            2.0
+          ],
+          "NP1SLPD": [
+            2.0,
+            2.0,
+            1.0
+          ],
+          "NP1PAIN": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NP1URIN": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "NP1CNST": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NP1LTHD": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NP1FATG": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "NP1PTOT": [
+            3.0,
+            4.0,
+            3.0
+          ],
+          "ORIG_ENTRY": [
+            "02/2011",
+            "03/2012",
+            "02/2013"
+          ],
+          "LAST_UPDATE": [
+            "2020-06-25 16:02:19.0",
+            "2020-06-25 16:02:21.0",
+            "2020-06-25 16:02:22.0"
+          ]
+        }
+      },
+      "required_present": [
+        "PATNO"
+      ],
+      "required_missing": [],
+      "id_check": {
+        "exists": true,
+        "unique": false,
+        "dupe_count": 9255
+      }
+    },
+    {
+      "table": "instruments_optional[3]",
+      "base_group": "instruments_optional",
+      "file": "MDS-UPDRS_Part_I_Non-Motor_Aspects__Online__07Sep2025.csv",
+      "exists": true,
+      "basic": {
+        "name": "instruments_optional[3]",
+        "shape": [
+          10000,
+          15
+        ],
+        "columns": [
+          "RESPONDENT_ID",
+          "PATNO",
+          "EVENT_ID",
+          "MOD_INSTANCE_ID",
+          "MODIFIED_AT",
+          "CREATED_AT",
+          "RESPONSE_STATUS",
+          "NUPSOURC_OL",
+          "NP1SLPN_OL",
+          "NP1SLPD_OL",
+          "NP1PAIN_OL",
+          "NP1URIN_OL",
+          "NP1CNST_OL",
+          "NP1LTHD_OL",
+          "NP1FATG_OL"
+        ],
+        "null_counts": {
+          "RESPONDENT_ID": 0,
+          "PATNO": 0,
+          "EVENT_ID": 0,
+          "MOD_INSTANCE_ID": 0,
+          "MODIFIED_AT": 0,
+          "CREATED_AT": 0,
+          "RESPONSE_STATUS": 0,
+          "NUPSOURC_OL": 0,
+          "NP1SLPN_OL": 8,
+          "NP1SLPD_OL": 8,
+          "NP1PAIN_OL": 14,
+          "NP1URIN_OL": 14,
+          "NP1CNST_OL": 16,
+          "NP1LTHD_OL": 16,
+          "NP1FATG_OL": 19
+        },
+        "dtypes": {
+          "RESPONDENT_ID": "int64",
+          "PATNO": "int64",
+          "EVENT_ID": "object",
+          "MOD_INSTANCE_ID": "int64",
+          "MODIFIED_AT": "object",
+          "CREATED_AT": "object",
+          "RESPONSE_STATUS": "int64",
+          "NUPSOURC_OL": "int64",
+          "NP1SLPN_OL": "float64",
+          "NP1SLPD_OL": "float64",
+          "NP1PAIN_OL": "float64",
+          "NP1URIN_OL": "float64",
+          "NP1CNST_OL": "float64",
+          "NP1LTHD_OL": "float64",
+          "NP1FATG_OL": "float64"
+        },
+        "head_preview": {
+          "RESPONDENT_ID": [
+            19114420489,
+            19054890341,
+            13577562409
+          ],
+          "PATNO": [
+            105193,
+            105193,
+            105193
+          ],
+          "EVENT_ID": [
+            "OL08",
+            "OL06",
+            "OL04"
+          ],
+          "MOD_INSTANCE_ID": [
+            306419791,
+            306419791,
+            306419791
+          ],
+          "MODIFIED_AT": [
+            "11/2023",
+            "04/2023",
+            "10/2022"
+          ],
+          "CREATED_AT": [
+            "11/2023",
+            "04/2023",
+            "10/2022"
+          ],
+          "RESPONSE_STATUS": [
+            1,
+            1,
+            1
+          ],
+          "NUPSOURC_OL": [
+            1,
+            1,
+            1
+          ],
+          "NP1SLPN_OL": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NP1SLPD_OL": [
+            1.0,
+            1.0,
+            0.0
+          ],
+          "NP1PAIN_OL": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "NP1URIN_OL": [
+            0.0,
+            1.0,
+            1.0
+          ],
+          "NP1CNST_OL": [
+            3.0,
+            3.0,
+            3.0
+          ],
+          "NP1LTHD_OL": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NP1FATG_OL": [
+            1.0,
+            2.0,
+            2.0
+          ]
+        }
+      },
+      "required_present": [
+        "PATNO"
+      ],
+      "required_missing": [],
+      "id_check": {
+        "exists": true,
+        "unique": false,
+        "dupe_count": 8041
+      }
+    },
+    {
+      "table": "instruments_optional[4]",
+      "base_group": "instruments_optional",
+      "file": "MDS-UPDRS_Part_IV__Motor_Complications_07Sep2025.csv",
+      "exists": true,
+      "basic": {
+        "name": "instruments_optional[4]",
+        "shape": [
+          10000,
+          23
+        ],
+        "columns": [
+          "REC_ID",
+          "PATNO",
+          "EVENT_ID",
+          "PAG_NAME",
+          "INFODT",
+          "NP4WDYSK",
+          "NP4WDYSKDEN",
+          "NP4WDYSKNUM",
+          "NP4WDYSKPCT",
+          "NP4DYSKI",
+          "NP4OFF",
+          "NP4OFFDEN",
+          "NP4OFFNUM",
+          "NP4OFFPCT",
+          "NP4FLCTI",
+          "NP4FLCTX",
+          "NP4DYSTN",
+          "NP4DYSTNDEN",
+          "NP4DYSTNNUM",
+          "NP4DYSTNPCT",
+          "NP4TOT",
+          "ORIG_ENTRY",
+          "LAST_UPDATE"
+        ],
+        "null_counts": {
+          "REC_ID": 0,
+          "PATNO": 0,
+          "EVENT_ID": 0,
+          "PAG_NAME": 0,
+          "INFODT": 0,
+          "NP4WDYSK": 0,
+          "NP4WDYSKDEN": 5777,
+          "NP4WDYSKNUM": 5788,
+          "NP4WDYSKPCT": 5817,
+          "NP4DYSKI": 0,
+          "NP4OFF": 2,
+          "NP4OFFDEN": 5789,
+          "NP4OFFNUM": 5794,
+          "NP4OFFPCT": 5824,
+          "NP4FLCTI": 3,
+          "NP4FLCTX": 3,
+          "NP4DYSTN": 3,
+          "NP4DYSTNDEN": 5804,
+          "NP4DYSTNNUM": 5801,
+          "NP4DYSTNPCT": 7965,
+          "NP4TOT": 73,
+          "ORIG_ENTRY": 0,
+          "LAST_UPDATE": 0
+        },
+        "dtypes": {
+          "REC_ID": "object",
+          "PATNO": "int64",
+          "EVENT_ID": "object",
+          "PAG_NAME": "object",
+          "INFODT": "object",
+          "NP4WDYSK": "int64",
+          "NP4WDYSKDEN": "float64",
+          "NP4WDYSKNUM": "float64",
+          "NP4WDYSKPCT": "float64",
+          "NP4DYSKI": "int64",
+          "NP4OFF": "float64",
+          "NP4OFFDEN": "float64",
+          "NP4OFFNUM": "float64",
+          "NP4OFFPCT": "float64",
+          "NP4FLCTI": "float64",
+          "NP4FLCTX": "float64",
+          "NP4DYSTN": "float64",
+          "NP4DYSTNDEN": "float64",
+          "NP4DYSTNNUM": "float64",
+          "NP4DYSTNPCT": "float64",
+          "NP4TOT": "float64",
+          "ORIG_ENTRY": "object",
+          "LAST_UPDATE": "object"
+        },
+        "head_preview": {
+          "REC_ID": [
+            "IA156300",
+            "IA156303",
+            "473773301"
+          ],
+          "PATNO": [
+            3001,
+            3001,
+            3001
+          ],
+          "EVENT_ID": [
+            "R17",
+            "R18",
+            "V09"
+          ],
+          "PAG_NAME": [
+            "NUPDRS4",
+            "NUPDRS4",
+            "NUPDRS4"
+          ],
+          "INFODT": [
+            "11/2021",
+            "09/2022",
+            "11/2014"
+          ],
+          "NP4WDYSK": [
+            1,
+            2,
+            0
+          ],
+          "NP4WDYSKDEN": [
+            4.0,
+            4.0,
+            NaN
+          ],
+          "NP4WDYSKNUM": [
+            16.0,
+            12.0,
+            NaN
+          ],
+          "NP4WDYSKPCT": [
+            25.0,
+            33.0,
+            NaN
+          ],
+          "NP4DYSKI": [
+            0,
+            1,
+            0
+          ],
+          "NP4OFF": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NP4OFFDEN": [
+            0.0,
+            0.0,
+            NaN
+          ],
+          "NP4OFFNUM": [
+            16.0,
+            12.0,
+            NaN
+          ],
+          "NP4OFFPCT": [
+            0.0,
+            0.0,
+            NaN
+          ],
+          "NP4FLCTI": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NP4FLCTX": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NP4DYSTN": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NP4DYSTNDEN": [
+            0.0,
+            0.0,
+            NaN
+          ],
+          "NP4DYSTNNUM": [
+            0.0,
+            0.0,
+            NaN
+          ],
+          "NP4DYSTNPCT": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "NP4TOT": [
+            1.0,
+            3.0,
+            0.0
+          ],
+          "ORIG_ENTRY": [
+            "12/2021",
+            "09/2022",
+            "11/2014"
+          ],
+          "LAST_UPDATE": [
+            "2022-11-07 00:00:00.0",
+            "2022-11-07 00:00:00.0",
+            "2020-06-25 16:04:34.0"
+          ]
+        }
+      },
+      "required_present": [
+        "PATNO"
+      ],
+      "required_missing": [],
+      "id_check": {
+        "exists": true,
+        "unique": false,
+        "dupe_count": 8590
+      }
+    },
+    {
+      "table": "visit_types",
+      "base_group": "visit_types",
+      "file": "Visit_Type_07Sep2025.csv",
+      "exists": true,
+      "basic": {
+        "name": "visit_types",
+        "shape": [
+          9779,
+          9
+        ],
+        "columns": [
+          "REC_ID",
+          "PATNO",
+          "EVENT_ID",
+          "PAG_NAME",
+          "INFODT",
+          "MODVISIT",
+          "MODVISTYPE",
+          "ORIG_ENTRY",
+          "LAST_UPDATE"
+        ],
+        "null_counts": {
+          "REC_ID": 0,
+          "PATNO": 0,
+          "EVENT_ID": 0,
+          "PAG_NAME": 0,
+          "INFODT": 0,
+          "MODVISIT": 0,
+          "MODVISTYPE": 9698,
+          "ORIG_ENTRY": 0,
+          "LAST_UPDATE": 0
+        },
+        "dtypes": {
+          "REC_ID": "object",
+          "PATNO": "int64",
+          "EVENT_ID": "object",
+          "PAG_NAME": "object",
+          "INFODT": "object",
+          "MODVISIT": "int64",
+          "MODVISTYPE": "float64",
+          "ORIG_ENTRY": "object",
+          "LAST_UPDATE": "object"
+        },
+        "head_preview": {
+          "REC_ID": [
+            "IA418896",
+            "IA582717",
+            "IA345727"
+          ],
+          "PATNO": [
+            3001,
+            3001,
+            3003
+          ],
+          "EVENT_ID": [
+            "R19",
+            "V20",
+            "R19"
+          ],
+          "PAG_NAME": [
+            "VISTYPE",
+            "VISTYPE",
+            "VISTYPE"
+          ],
+          "INFODT": [
+            "08/2023",
+            "09/2024",
+            "10/2023"
+          ],
+          "MODVISIT": [
+            0,
+            0,
+            0
+          ],
+          "MODVISTYPE": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "ORIG_ENTRY": [
+            "02/2024",
+            "09/2024",
+            "10/2023"
+          ],
+          "LAST_UPDATE": [
+            "2024-02-09",
+            "2024-09-25",
+            "2023-10-11"
+          ]
+        }
+      },
+      "required_present": [],
+      "required_missing": [],
+      "id_check": {
+        "exists": true,
+        "unique": false,
+        "dupe_count": 6542
+      }
+    },
+    {
+      "table": "code_list",
+      "base_group": "code_list",
+      "file": "Code_List_-__Annotated__07Sep2025.csv",
+      "exists": true,
+      "basic": {
+        "name": "code_list",
+        "shape": [
+          7483,
+          5
+        ],
+        "columns": [
+          "MOD_NAME",
+          "ITM_NAME",
+          "CODE",
+          "DECODE",
+          "MAPPING_NOTES"
+        ],
+        "null_counts": {
+          "MOD_NAME": 0,
+          "ITM_NAME": 0,
+          "CODE": 2,
+          "DECODE": 42,
+          "MAPPING_NOTES": 7270
+        },
+        "dtypes": {
+          "MOD_NAME": "object",
+          "ITM_NAME": "object",
+          "CODE": "object",
+          "DECODE": "object",
+          "MAPPING_NOTES": "object"
+        },
+        "head_preview": {
+          "MOD_NAME": [
+            "AE",
+            "AE",
+            "AE"
+          ],
+          "ITM_NAME": [
+            "AEOUTCOM",
+            "AEOUTCOM",
+            "AEOUTCOM"
+          ],
+          "CODE": [
+            "1",
+            "2",
+            "3"
+          ],
+          "DECODE": [
+            "Recovered",
+            "Under treatment / observation",
+            "Change in AE characteristic"
+          ],
+          "MAPPING_NOTES": [
+            NaN,
+            NaN,
+            NaN
+          ]
+        }
+      },
+      "required_present": [],
+      "required_missing": [],
+      "id_check": {
+        "exists": false,
+        "unique": null,
+        "dupe_count": null
+      }
+    },
+    {
+      "table": "data_dictionary",
+      "base_group": "data_dictionary",
+      "file": "Data_Dictionary_-__Annotated__07Sep2025.csv",
+      "exists": true,
+      "basic": {
+        "name": "data_dictionary",
+        "shape": [
+          6022,
+          13
+        ],
+        "columns": [
+          "MOD_NAME",
+          "ITM_NAME",
+          "PAG_NAME",
+          "DSCR",
+          "ITM_TYPE",
+          "FLD_LEN",
+          "DECML",
+          "ITM_REQUIRED",
+          "ITM_UNIQUE",
+          "MAPPING_NOTES",
+          "CODE_CHANGES",
+          "PREV_MOD_NAME",
+          "PREV_ITM_NAME"
+        ],
+        "null_counts": {
+          "MOD_NAME": 0,
+          "ITM_NAME": 23,
+          "PAG_NAME": 2470,
+          "DSCR": 7,
+          "ITM_TYPE": 203,
+          "FLD_LEN": 1454,
+          "DECML": 2206,
+          "ITM_REQUIRED": 2788,
+          "ITM_UNIQUE": 2788,
+          "MAPPING_NOTES": 5308,
+          "CODE_CHANGES": 5959,
+          "PREV_MOD_NAME": 5803,
+          "PREV_ITM_NAME": 5804
+        },
+        "dtypes": {
+          "MOD_NAME": "object",
+          "ITM_NAME": "object",
+          "PAG_NAME": "object",
+          "DSCR": "object",
+          "ITM_TYPE": "object",
+          "FLD_LEN": "float64",
+          "DECML": "float64",
+          "ITM_REQUIRED": "object",
+          "ITM_UNIQUE": "object",
+          "MAPPING_NOTES": "object",
+          "CODE_CHANGES": "object",
+          "PREV_MOD_NAME": "object",
+          "PREV_ITM_NAME": "object"
+        },
+        "head_preview": {
+          "MOD_NAME": [
+            "AE",
+            "AE",
+            "AE"
+          ],
+          "ITM_NAME": [
+            " ",
+            "AEOUTCOM",
+            "AERELAT"
+          ],
+          "PAG_NAME": [
+            "AE",
+            "AE",
+            "AE"
+          ],
+          "DSCR": [
+            "Adverse Event Log",
+            "Outcome",
+            "Relationship to Study"
+          ],
+          "ITM_TYPE": [
+            NaN,
+            "NUMBER",
+            "NUMBER"
+          ],
+          "FLD_LEN": [
+            NaN,
+            1.0,
+            1.0
+          ],
+          "DECML": [
+            NaN,
+            0.0,
+            0.0
+          ],
+          "ITM_REQUIRED": [
+            NaN,
+            false,
+            false
+          ],
+          "ITM_UNIQUE": [
+            NaN,
+            false,
+            false
+          ],
+          "MAPPING_NOTES": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "CODE_CHANGES": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "PREV_MOD_NAME": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "PREV_ITM_NAME": [
+            NaN,
+            NaN,
+            NaN
+          ]
+        }
+      },
+      "required_present": [],
+      "required_missing": [],
+      "id_check": {
+        "exists": false,
+        "unique": null,
+        "dupe_count": null
+      }
+    }
+  ]
+}

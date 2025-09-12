@@ -1,0 +1,11 @@
+{
+  "n": 1105,
+  "positives": 29,
+  "negatives": 1076,
+  "auroc": 0.9808037431098577,
+  "accuracy": 0.9945701357466064,
+  "sensitivity_recall": 0.8620689655172413,
+  "specificity": 0.9981412639405205,
+  "threshold": 0.5,
+  "eval": "oof_5fold_stratified"
+}

@@ -1,14 +1,13 @@
 random_state: 42
 task: "binary_classification"
-target: "convert_24m"
+target: "convert_84m"   # match 7-year horizon
 
-# Feature groups (we'll auto-discover later, but list critical ones here)
+# Feature groups (we'll auto-discover plasma later)
 feature_groups:
-  demographics: [age, sex]
-  plasma: []    # will be filled after schema discovery
-  clinical: []  # optional
+  demographics: [age_at_baseline, sex_norm]
+  plasma: []
+  clinical: []
 
-# Baselines (we’ll start with LR; add XGB/LGBM later)
 models:
   logistic_regression:
     C: 1.0
@@ -17,11 +16,9 @@ models:
     max_iter: 1000
     class_weight: "balanced"
 
-# Probability calibration
 calibration:
-  method: "isotonic"  # or "platt"
+  method: "isotonic"  # or 'platt'
 
-# Cross-validation strategy
 cv:
   strategy: "group_kfold"
   n_splits: 5

@@ -1,26 +1,69 @@
-# PPMI/AMP-PD data settings (placeholders; we will fill actual filenames at Step 6)
+# === Core identity & label settings ===
+id_column: subject_id                  # normalized id column in our pipeline
+join_key_raw: PATNO                    # raw id column in PPMI files
+join_key_normalized: subject_id
 
-id_column: subject_id           # e.g., PPMI 'PATNO' → we'll map to this
-baseline_visit_flag: baseline   # how we mark baseline rows after derivation
-visit_date_column: visit_date   # normalized name after parsing
-outcome_column: convert_24m     # derived label: conversion within 24 months
+baseline_event_code: BL                # PPMI baseline visit code
+visit_date_column: visit_date          # (kept for reference)
+# From audit: prefer INFODT, then MCADATE/LAST_UPDATE/others
+exam_date_candidates:
+  - INFODT
+  - MCADATE
+  - EXAMDATE
+  - VISIT_DATE
+  - VISDT
+  - RUNDATE
+  - SAMPLE_DATE
+  - DRAW_DATE
+  - COLLDATE
+  - LAST_UPDATE
 
-window_months: 24
+# From audit: diagnosis date column present is PDDXDT
+diagnosis_date_candidates:
+  - PDDXDT
+  - DIAGNOSIS_DATE
+  - DX_DATE
+  - EVENT_DATE
+  - EXAMDATE
+  - DXDT
+
+# === Outcome horizon (7 years) ===
+outcome_column: convert_84m            # derived label: conversion within 84 months
+window_months: 84
 positive_label: 1
 negative_label: 0
 
-# File stubs (we’ll replace with your real CSV/XLSX names at Step 6)
+# === Files under data/raw/ ===
 files:
-  demographics: "<PUT_FILENAME_HERE>"
-  plasma_biomarkers: "<PUT_FILENAME_HERE>"
-  diagnosis_events: "<PUT_FILENAME_HERE>"
-  visits: "<PUT_FILENAME_HERE>"
+  demographics: "Demographics_07Sep2025.csv"
+  diagnosis_events: "PD_Diagnosis_History_07Sep2025.csv"
 
-# Join keys & expected minimal columns (sanity checks)
+  # We can accept one or many plasma/assay files (list supported)
+  plasma_biomarkers:
+    - "Current_Biospecimen_Analysis_Results_06Sep2025.csv"
+    - "SAA_Biospecimen_Analysis_Results_06Sep2025.csv"
+
+  # Instruments used to detect baseline dates and (later) optional features
+  instruments_optional:
+    - "Montreal_Cognitive_Assessment__MoCA__07Sep2025.csv"
+    - "MDS_UPDRS_Part_II__Patient_Questionnaire_07Sep2025.csv"
+    - "MDS-UPDRS_Part_I_Patient_Questionnaire_07Sep2025.csv"
+    - "MDS-UPDRS_Part_I_Non-Motor_Aspects__Online__07Sep2025.csv"
+    - "MDS-UPDRS_Part_IV__Motor_Complications_07Sep2025.csv"
+    - "Visit_Type_07Sep2025.csv"
+    - "University_of_Pennsylvania_Smell_Identification_Test_UPSIT_07Sep2025.csv"
+    - "Geriatric_Depression_Scale__Short_Version__07Sep2025.csv"
+    - "Epworth_Sleepiness_Scale_07Sep2025.csv"
+    - "REM_Sleep_Behavior_Disorder_Questionnaire_07Sep2025.csv"
+
+  # References (not used in merges, helpful for lookups)
+  visit_types: "Visit_Type_07Sep2025.csv"
+  code_list: "Code_List_-__Annotated__07Sep2025.csv"
+  data_dictionary: "Data_Dictionary_-__Annotated__07Sep2025.csv"
+
+# === Minimal schema checks for sanity ===
 expected_columns:
   demographics: [PATNO, SEX, BIRTHDT]
-  plasma_biomarkers: [PATNO, SAMPLE_DATE, PLASMA_VAR_1]
-  diagnosis_events: [PATNO, EVENT_DATE, DX_STATUS]
-  visits: [PATNO, VISIT_DATE, VISIT_CODE]
-join_key_raw: PATNO
-join_key_normalized: subject_id
+  diagnosis_events: [PATNO, PDDXDT]
+  plasma_biomarkers: [PATNO]
+  instruments_optional: [PATNO, EVENT_ID, INFODT]

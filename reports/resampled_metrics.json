@@ -1,0 +1,26 @@
+{
+  "roc_auc": 0.5449612403100775,
+  "auprc": 0.032437306015646414,
+  "brier": 0.0395714469712012,
+  "optimal_threshold_f1": 0.1325173428727333,
+  "f1_at_thr": 0.09302325581386478,
+  "precision_at_thr": 0.04878048780487805,
+  "recall_at_thr": 1.0,
+  "confusion_matrix_at_thr": [
+    [
+      98,
+      117
+    ],
+    [
+      0,
+      6
+    ]
+  ],
+  "n_train": 884,
+  "n_test": 221,
+  "positives_train": 23,
+  "positives_test": 6,
+  "sampling_strategy": 0.33,
+  "model_path": "C:\\Users\\gayat\\Desktop\\CSE\\Sem7\\6 PP2\\PD_Project\\models\\logreg_ros_1to3.joblib",
+  "preds_path": "C:\\Users\\gayat\\Desktop\\CSE\\Sem7\\6 PP2\\PD_Project\\reports\\resampled_predictions.csv"
+}

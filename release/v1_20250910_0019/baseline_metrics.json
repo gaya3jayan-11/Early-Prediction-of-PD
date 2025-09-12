@@ -1,0 +1,20 @@
+{
+  "roc_auc": 0.5116279069767442,
+  "auprc": 0.03100397206083441,
+  "brier": 0.026375845318783245,
+  "optimal_threshold_f1": 0.028914767980488754,
+  "confusion_matrix_at_thr": [
+    [
+      99,
+      116
+    ],
+    [
+      0,
+      6
+    ]
+  ],
+  "positives_test": 6,
+  "n_test": 221,
+  "n_train": 884,
+  "n_features": 22
+}

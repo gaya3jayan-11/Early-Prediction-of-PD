@@ -1,0 +1,3 @@
+,n,auroc,auprc
+age<=median,553.0,1.0,1.0
+age>median,552.0,1.0,1.0
