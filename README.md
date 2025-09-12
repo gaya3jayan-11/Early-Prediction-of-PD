@@ -6,7 +6,7 @@
 <summary><strong>Windows (PowerShell)</strong></summary>
 
   
-```powershell
+
 # 1) Clone
 git clone https://github.com/<you>/pd-risk-prediction.git
 cd pd-risk-prediction
