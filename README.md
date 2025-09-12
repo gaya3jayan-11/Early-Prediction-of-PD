@@ -69,8 +69,8 @@ To avoid any accidental leakage, we report **5-fold out-of-fold (OOF)** performa
   
 
 # 1) Clone
-git clone https://github.com/<you>/pd-risk-prediction.git
-cd pd-risk-prediction
+git clone https://github.com/gaya3jayan-11/Early-Prediction-of-PD.git <br/>
+cd Early-Prediction-of-PD
 
 # 2) Virtual env + deps
 python -m venv .venv <br/>
@@ -97,8 +97,8 @@ python scripts\predict.py -i data\processed\final_dataset_enhanced.csv -o repo
 </details> <details> <summary><strong>macOS / Linux (Bash)</strong></summary>
 
 # 1) Clone
-git clone https://github.com/<you>/pd-risk-prediction.git <br/>
-cd pd-risk-prediction
+git clone https://github.com/gaya3jayan-11/Early-Prediction-of-PD.git <br/>
+cd Early-Prediction-of-PD
 
 # 2) Virtual env + deps
 python3 -m venv .venv <br/>
